@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return '''
     <h1>Welcome to My Portfolio</h1>
-    <p>Hello! I'm a virtual intern at TECHSONIX. Below are the sections of my site:</p>
+    <p>Hello! My name is Ishita Gupta and I'm a virtual intern at TECHSONIX. Below are the sections of my site:</p>
     <a href="/about">About Me</a> | 
     <a href="/projects">Projects</a> | 
     <a href="/contact">Contact</a>
@@ -31,6 +31,7 @@ def projects():
         <li><strong>Portfolio Website</strong> – Built using Flask</li>
         <li><strong>Calculator </strong> – Simple calculator in Python</li>
         <li><strong>Password generator </strong> – using python</li>
+        <li><strong>Contact management</strong> – using python</li>
     </ul>
     <a href="/">Back to Home</a>
     '''
